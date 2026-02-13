@@ -1,0 +1,11 @@
+/**
+
+!.gitignore
+
+!/plugins
+!/plugins/**
+
+!/skills
+!/skills/**
+
+!/CLAUDE.md

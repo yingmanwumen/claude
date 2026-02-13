@@ -1,0 +1,27 @@
+{
+  "name": "cpd-kepano-obsidian",
+  "owner": {
+    "name": "ClaudePluginHub"
+  },
+  "plugins": [
+    {
+      "name": "kepano-obsidian",
+      "version": "1.0.0",
+      "description": "Create and edit Obsidian vault files including Markdown, Bases, and Canvas. Use when working with .md, .base, or .canvas files in an Obsidian vault.",
+      "keywords": [
+        "obsidian",
+        "markdown",
+        "bases",
+        "canvas",
+        "pkm",
+        "notes"
+      ],
+      "source": {
+        "source": "github",
+        "repo": "kepano/obsidian-skills"
+      },
+      "category": "utilities",
+      "strict": true
+    }
+  ]
+}

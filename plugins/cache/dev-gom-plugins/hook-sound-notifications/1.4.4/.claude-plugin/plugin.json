@@ -1,0 +1,20 @@
+{
+  "name": "hook-sound-notifications",
+  "version": "1.4.4",
+  "description": "Audio notifications for Claude Code hook events with customizable sounds and volume control",
+  "author": {
+    "name": "Dev GOM",
+    "url": "https://github.com/Dev-GOM/claude-code-marketplace"
+  },
+  "homepage": "https://github.com/Dev-GOM/claude-code-marketplace",
+  "repository": "https://github.com/Dev-GOM/claude-code-marketplace.git",
+  "license": "Apache-2.0",
+  "keywords": [
+    "sound",
+    "notifications",
+    "audio",
+    "hooks",
+    "feedback",
+    "volume-control"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "version": 2,
+  "plugins": {
+    "lua-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/lua-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-12T16:06:50.874Z",
+        "lastUpdated": "2026-01-12T16:06:50.874Z"
+      }
+    ],
+    "glm-plan-usage@zai-coding-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/zai-coding-plugins/glm-plan-usage/0.0.1",
+        "version": "0.0.1",
+        "installedAt": "2026-01-15T21:00:49.600Z",
+        "lastUpdated": "2026-01-15T21:00:49.600Z"
+      }
+    ],
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-17T08:26:34.785Z",
+        "lastUpdated": "2026-01-17T08:26:34.785Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "hook-sound-notifications@dev-gom-plugins": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/dev-gom-plugins/hook-sound-notifications/1.4.4",
+        "version": "1.4.4",
+        "installedAt": "2026-01-22T01:04:40.828Z",
+        "lastUpdated": "2026-01-22T01:04:40.828Z",
+        "gitCommitSha": "eed6aa291ad984d436b800e7e1cb8991ef3ff866"
+      }
+    ],
+    "pyright-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-22T04:36:59.482Z",
+        "lastUpdated": "2026-01-22T04:36:59.482Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/feature-dev/f1be96f0fb58",
+        "version": "f1be96f0fb58",
+        "installedAt": "2026-01-24T09:24:39.554Z",
+        "lastUpdated": "2026-01-24T09:24:39.554Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/github/f1be96f0fb58",
+        "version": "f1be96f0fb58",
+        "installedAt": "2026-01-24T09:25:31.686Z",
+        "lastUpdated": "2026-01-24T09:25:31.686Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-24T09:25:40.423Z",
+        "lastUpdated": "2026-01-24T09:25:40.423Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/security-guidance/f1be96f0fb58",
+        "version": "f1be96f0fb58",
+        "installedAt": "2026-01-24T09:26:17.907Z",
+        "lastUpdated": "2026-01-24T09:26:17.907Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "gopls-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/gopls-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-24T09:27:18.374Z",
+        "lastUpdated": "2026-01-24T09:27:18.374Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "clangd-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/claude-plugins-official/clangd-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-24T09:27:25.549Z",
+        "lastUpdated": "2026-01-24T09:27:25.549Z",
+        "gitCommitSha": "f1be96f0fb58d5aaf2840ca7d7036d5c0923742c"
+      }
+    ],
+    "context7-plugin@context7-marketplace": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/context7-marketplace/context7-plugin/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-01-31T17:15:44.450Z",
+        "lastUpdated": "2026-01-31T17:15:44.450Z",
+        "gitCommitSha": "0d642306635d1a189c36d47eec629407952dd5c7"
+      }
+    ],
+    "kepano-obsidian@cpd-kepano-obsidian": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/cpd-kepano-obsidian/kepano-obsidian/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-02-01T17:56:18.247Z",
+        "lastUpdated": "2026-02-01T17:56:18.247Z",
+        "gitCommitSha": "34c2cda8b29eaeec6793e342b8b56e96ac29f15c"
+      }
+    ],
+    "document-skills@anthropic-agent-skills": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/anthropic-agent-skills/document-skills/1ed29a03dc85",
+        "version": "1ed29a03dc85",
+        "installedAt": "2026-02-13T14:03:54.368Z",
+        "lastUpdated": "2026-02-13T14:03:54.368Z",
+        "gitCommitSha": "1ed29a03dc852d30fa6ef2ca53a67dc2c2c2c563"
+      }
+    ],
+    "example-skills@anthropic-agent-skills": [
+      {
+        "scope": "user",
+        "installPath": "/home/ymwm/.claude/plugins/cache/anthropic-agent-skills/example-skills/1ed29a03dc85",
+        "version": "1ed29a03dc85",
+        "installedAt": "2026-02-13T14:04:17.199Z",
+        "lastUpdated": "2026-02-13T14:04:17.199Z",
+        "gitCommitSha": "1ed29a03dc852d30fa6ef2ca53a67dc2c2c2c563"
+      }
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "description": "Sound Notifications - Audio alerts for Claude Code hook events",
+  "version": "1.4.4",
+  "author": "Dev GOM",
+  "lastUpdated": "2025-11-03",
+  "hooks": {
+    "SessionStart": [
+      {
+        "description": "Initialize plugin configuration at session start",
+        "priority": 100,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/init-config.js",
+            "description": "Creates default configuration file if it doesn't exist",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      },
+      {
+        "description": "Play session start sound notification",
+        "priority": 90,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType SessionStart",
+            "description": "Plays sound when session starts (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "description": "Update hooks configuration for next session",
+        "priority": 100,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/update-hooks-config.js",
+            "description": "Updates hooks.json based on user configuration",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      },
+      {
+        "description": "Play session end sound notification",
+        "priority": 50,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType SessionEnd",
+            "description": "Plays sound when session ends (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "description": "Play pre-tool-use sound notification",
+        "matcher": ".*",
+        "priority": 40,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType PreToolUse",
+            "description": "Plays sound before tool execution (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "description": "Play post-tool-use sound notification",
+        "matcher": ".*",
+        "priority": 40,
+        "enabled": false,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType PostToolUse",
+            "description": "Plays sound after tool execution (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "description": "Play notification sound",
+        "priority": 100,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType Notification",
+            "description": "Plays sound when notification occurs (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "description": "Play user prompt submit sound notification",
+        "priority": 50,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType UserPromptSubmit",
+            "description": "Plays sound when user submits a prompt (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "description": "Play stop sound notification",
+        "priority": 50,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType Stop",
+            "description": "Plays sound when agent stops responding (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "description": "Play subagent stop sound notification",
+        "priority": 50,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType SubagentStop",
+            "description": "Plays sound when subagent task completes (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "description": "Play pre-compact sound notification",
+        "priority": 50,
+        "enabled": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node ${CLAUDE_PLUGIN_ROOT}/scripts/sound-hook-executor.js -HookType PreCompact",
+            "description": "Plays sound before context compaction (Node.js wrapper with lock mechanism)",
+            "continueOnError": true,
+            "suppressOutput": true
+          }
+        ]
+      }
+    ]
+  }
+}
