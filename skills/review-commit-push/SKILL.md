@@ -8,3 +8,7 @@ description: Review and commit and push. Use when preparing to commit and push c
 3. Stop and report if you found any issues. Continue if no issue has been found. And them commit & push.
 4. Commit message should follow the conventional style.
 5. All commit messages should be in English.
+
+## Notice
+
+- Do NOT add `Co-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>` to commit messages.
