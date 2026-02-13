@@ -46,7 +46,3 @@ Update peon-ping configuration settings (volume, pack rotation, categories, etc.
    ```
 
 2. Restart Claude Code to load the configuration.
-
-## License
-
-MIT
