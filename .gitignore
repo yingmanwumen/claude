@@ -4,6 +4,7 @@
 
 !/plugins
 !/plugins/**
+/plugins/cache
 
 !/skills
 !/skills/**
